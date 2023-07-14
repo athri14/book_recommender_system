@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <title>books</title>
+</head>
+<style>
+    .text-white{
+         color:white
+    }
+</style>
+
+<body style="background-color:grey">
+<nav class="navbar navbar-expand-lg bg-info-subtle">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1" >Book recommendation system</span>
+       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/recommend">recommend books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+
+       </ul>
+        <form action="/search" class="d-flex" role="search" method="GET">
+        <input class="form-control me-2" name="user_input" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-white" style=front-size:50px">About me</h1>
+        </div>
+
+        <div class="col-md-12" style="margin-Top:20px">
+            <div class="card">
+                <div class="card-body">
+                    <h6> Owner:Ajmera Athri:2020UEC2522, Saket Sagar:2020UEC2642 </h6>
+                    <p>
+                      Welcome to our innovative book recommendation system that harnesses the potential of collaborative filtering, bringing you personalized and engaging reading recommendations like never before. Powered by cutting-edge technologies, including Flask and Jupyter Notebook, our project aims to revolutionize the way you discover your next favorite book.
+                    </p>
+                     <p>
+                        At its core, collaborative filtering leverages the wisdom of the crowd to provide tailored suggestions based on the preferences and behaviors of like-minded readers. By analyzing vast amounts of user data, our system intelligently identifies patterns, connections, and hidden gems within the literary world, helping you navigate through an ocean of choices with ease.
+                     </p>
+                    <p>
+                    Built with meticulous attention to detail, our Flask-powered web application provides a seamless user experience, ensuring intuitive navigation and a visually appealing interface. With just a few clicks, you'll embark on a captivating journey where personalized book recommendations await at your fingertips.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+</body>
+</html>
